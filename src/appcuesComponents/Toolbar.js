@@ -34,9 +34,10 @@ const Toolbar = () => {
     return (
         <div id="toolbar">
             <h2>The Appcues Toolbox</h2>
+            <div>
             <ul>
             <li>
-                <h3>Enter ID and click "Appcues.show" to launch Appcues content</h3>
+                <p>Enter ID and click "Appcues.show" to launch Appcues content</p>
                 <input placeholder="-AbCdEf-12345" id="show-flow" type="text"/>
                 <button onClick={showFlow}>Appcues.show()</button>
             </li>
@@ -45,6 +46,7 @@ const Toolbar = () => {
             <li><button onClick={openDebugger}>Appcues.debug()</button></li>
             <li><button onClick={resetAppcues}>Appcues.reset()</button></li>
             </ul>
+            </div>
             <EventLog />
         </div>
     )

@@ -9,8 +9,8 @@ import squirrel from "./resources/squirrel.jpg"
 const Home = () => {
   return (
     <div className="app-content">
-      <h1>Welcome to this feature-rich test application</h1>
-      <h2>We're glad you're here</h2>
+      <h1>Welcome to Caleb's Demo App</h1>
+      <h2>Please feel free to use this to test and spin up new content</h2>
       <img src={squirrel} alt="a cute little squirrel peering at you from the tall grass"></img>
     </div>
   );
